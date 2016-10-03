@@ -10,6 +10,11 @@ var config = {
     path: BUILD_DIR,
     filename: 'bundle.js'
   },
+  devServer: {
+    inline: true,
+    contentBase: BUILD_DIR,
+    port: 3000
+  },
   module: {
     loaders: [
       {
