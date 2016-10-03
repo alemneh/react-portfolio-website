@@ -27159,7 +27159,8 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_navbar2.default, null)
+	        _react2.default.createElement(_navbar2.default, null),
+	        this.props.children
 	      );
 	    }
 	  }]);
@@ -27336,7 +27337,7 @@
 	          null,
 	          'Full Stack Software Developer'
 	        ),
-	        _react2.default.createElement('img', { src: './public/resources/alem_profile_pic.jpg' }),
+	        _react2.default.createElement('img', { src: './resources/alem_profile_pic.jpg' }),
 	        _react2.default.createElement(
 	          'p',
 	          null,
@@ -27436,7 +27437,7 @@
 /* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -27466,15 +27467,46 @@
 	  }
 
 	  _createClass(ContactPage, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        null,
+	        "div",
+	        { id: "contact", className: "container" },
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Contact'
+	          "h1",
+	          { className: "page-header" },
+	          "Contact"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "row" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "col-md-4" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://www.linkedin.com/in/alemneh", target: "_blank" },
+	              _react2.default.createElement("i", { className: "icon-linkedin-sign" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "col-md-4" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/alemneh", target: "_blank" },
+	              _react2.default.createElement("i", { className: "icon-github-sign" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "col-md-4" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://twitter.com/alemnehasefa", target: "_blank" },
+	              _react2.default.createElement("i", { className: "icon-twitter-sign" })
+	            )
+	          )
 	        )
 	      );
 	    }
@@ -27492,9 +27524,9 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(ContactPage, 'ContactPage', '/Users/alumnehasefa/react-portfolio/src/client/app/components/contact.js');
+	  __REACT_HOT_LOADER__.register(ContactPage, "ContactPage", "/Users/alumnehasefa/react-portfolio/src/client/app/components/contact.js");
 
-	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/alumnehasefa/react-portfolio/src/client/app/components/contact.js');
+	  __REACT_HOT_LOADER__.register(_default, "default", "/Users/alumnehasefa/react-portfolio/src/client/app/components/contact.js");
 	}();
 
 	;
