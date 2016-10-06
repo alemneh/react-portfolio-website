@@ -27331,17 +27331,29 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { id: 'home', className: '' },
 	        _react2.default.createElement(
 	          'h1',
-	          null,
+	          { className: '' },
 	          'Full Stack Software Developer'
 	        ),
-	        _react2.default.createElement('img', { src: './resources/alem_profile_pic.jpg' }),
 	        _react2.default.createElement(
-	          'p',
-	          null,
-	          'I am a driven full-stack software developer with an educational background in economics, statistics, and marketing. Who is passionate about identifying problems and providing solutions through test and behavioral driven code. Proficient: JavaScript, Angular.js, Node.js, Express.js, MongoDB, HTML, CSS, Mocha/Chai'
+	          'div',
+	          { className: 'row' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: '' },
+	            _react2.default.createElement('img', { className: 'img-rounded', id: 'profilePic', src: './resources/alem_profile_pic.jpg', alt: '' })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: '' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: '', id: 'bio' },
+	              'I am a driven full-stack software developer with an educational background in economics, statistics, and marketing. Who is passionate about identifying problems and providing solutions through test and behavioral driven code. Proficient: JavaScript, Angular.js, Node.js, Express.js, MongoDB, HTML, CSS, Mocha/Chai'
+	            )
+	          )
 	        )
 	      );
 	    }

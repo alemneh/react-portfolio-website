@@ -26,15 +26,45 @@ div.col-md-8 {
 
 }
 
-#portfolio img {
-  width: 700px;
-  height: 400px;
+.well.well-lg {
+  background-color: #1F1E1E;
 }
 
+div.col-md-6.portfolio-item {
+  margin-bottom: 44px;
+}
+
+div.col-md-6.portfolio-item a {
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#portfolio {
+  margin-bottom: 155px;
+}
+
+.portfolio-item .icon-github-sign {
+  font-size: 25px;
+  color: red;
+  margin-top: 5px;
+}
+
+.portfolio-item .fa-link {
+  font-size: 25px;
+  color: red;
+  margin-top: 5px;
+}
+
+
+
+.portfolio-item i:hover {
+  color: white;
+  cursor: pointer;
+}
 #home p {
     background-color: rgba(0,0,0,0.7);
     padding: 25px;
-    font-weight: bold;;
+    font-weight: bold;
 }
 
 footer {
@@ -61,13 +91,14 @@ footer {
   font-size: 240px;
 }
 
-#contact a {
+#contac a {
   text-decoration: none;
 }
 
 i:hover {
   color: red;
   cursor: pointer;
+  text-decoration: none;
 }
 /*=======================================
 MEDIA QUERIES
