@@ -1,6 +1,6 @@
 const data = {
   aboutPage: {
-    imageUrl: '../resources/alem.jpg',
+    imageUrl: './resources/alem.jpg',
     bio: 'I am a driven full-stack software developer with an educational background in economics, statistics, and marketing. Who is passionate about identifying problems and providing solutions through test and behavioral driven code. Proficient: JavaScript, Angular.js, Node.js, Express.js, MongoDB, HTML, CSS, Mocha/Chai'
   },
   profilePage: [
